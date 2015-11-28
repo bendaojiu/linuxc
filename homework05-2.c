@@ -61,6 +61,7 @@ int main(int arg, char *args[])
 	else
 	{
 		wait(&status);
+		fclose(fp);
 		return 0;
 	}
 	return 0;
