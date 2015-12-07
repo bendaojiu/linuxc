@@ -1,0 +1,2 @@
+实现两个程序mysignal、mycontrol，mycontrl给mysignal发送SIGINT信号，控制mysignal是否在屏幕打印“hello”字符串
+mycontrol中可以自己得到mysignal的pid
